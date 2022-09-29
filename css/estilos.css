@@ -1,22 +1,68 @@
-body{text-align: center;
-    background-image: linear-gradient(to right, rgba(255,255,255, 0.5) 0 100%), url("../img/fondo.jpg");
-    background-size: cover;
+body {
+	margin-top: 0%;
+	padding-top: 0%;
+	text-align: center;
+	background-color: antiquewhite;
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0 100%), url(../img/fondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
-h1{font-size: 60px;
-background-color: blanchedalmond;}
-
-img{width: 800px;
-height: 500px;}
-
-p{color: rgb(113, 28, 28);
-font-style: italic;
-font-size: large;
-background-color: whitesmoke;
-border: solid 1px black;
+header {
+	position: fixed;
+	margin: 0%;
+	padding-top: 0%;
+	width: 100%;
 }
 
-.titulos{text-decoration: underline;}
+header img {
+	width: 50px;
+	height: auto;
+	padding-left: 12%;
+	padding-right: 12%;
+}
+
+nav {
+	margin-top: 9%;
+	border: solid black;
+	border-radius: 5%;
+	float: left;
+	width: 58%;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	padding: 5%;
+}
+
+nav a:hover {
+	color: brown;
+}
+
+h1 {
+	font-size: 60px;
+	background-color: blanchedalmond;
+}
+
+img {
+	width: 800px;
+	height: 500px;
+}
+
+p {
+	color: rgb(113, 28, 28);
+	font-style: italic;
+	font-size: large;
+	background-color: whitesmoke;
+	border: solid 1px black;
+}
+
+.titulos {
+	text-decoration: underline;
+}
 
 .listas {
 	text-align: center;
@@ -28,8 +74,60 @@ border: solid 1px black;
 	display: inline-block;
 }
 
-#origen{text-align: justify;}
+#origen {
+	text-align: justify;
+	padding: 5px;
+}
+
+aside {
+
+	float: right;
+	position: fixed;
+	margin-left: 60%;
+	top: 17%;
+}
+
+iframe {
+	height: 220px;
+}
+
+section {
+	float: left;
+	margin-right: 42%
+}
+
+footer {
+	float: left;
+	width: 70%;
+}
+
+footer p {
+	width: 100%;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+}
+
+footer a img {
+	width: 50px;
+	height: auto;
+	padding: 25px;
+}
+
+/* #redes{
+float: left;
+width: 70%;
+justify-content: center;
+} */
 
 
+#flotante {
+	float: right;
+	position: fixed;
+	margin-left: 92%;
+	padding: 1%;
+	bottom: 10px;
+}
 
 
+/* ARREGLAR FOOTER Y VER MARGEN TOP EN TITULO */
