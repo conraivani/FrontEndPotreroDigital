@@ -14,6 +14,7 @@ header {
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
+	position: fixed;
 	/* flex-wrap: wrap; */
 	align-items: center;
 	height: 20vh;
