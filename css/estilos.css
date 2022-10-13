@@ -10,32 +10,50 @@ body {
 }
 
 header {
-	position: fixed;
-	margin: 0%;
-	padding-top: 0%;
-	width: 100%;
+	background-color: blanchedalmond;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	/* flex-wrap: wrap; */
+	align-items: center;
+	height: 20vh;
 }
 
-header img {
-	width: 50px;
-	height: auto;
-	padding-left: 12%;
-	padding-right: 12%;
+
+.logo img {
+	width: 30%;
+	height: 30%;
+}
+
+.redes {
+	width: 30%;
+	background-color: gray;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 5%;
+	padding: 1%;
+}
+
+.redes img {
+	width: 40%;
+	height: 40%;
 }
 
 nav {
-	margin-top: 9%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 3% 20% 3% 20%;
 	border: solid black;
 	border-radius: 5%;
-	float: left;
-	width: 58%;
+	padding: 1%;
 }
 
 nav a {
 	text-decoration: none;
 	font-size: 20px;
 	color: black;
-	padding: 5%;
 }
 
 nav a:hover {
@@ -52,15 +70,8 @@ img {
 	height: 500px;
 }
 
-p {
-	color: rgb(113, 28, 28);
-	font-style: italic;
-	font-size: large;
-	background-color: whitesmoke;
-	border: solid 1px black;
-}
-
 .titulos {
+	width: 100%;
 	text-decoration: underline;
 }
 
@@ -79,55 +90,57 @@ p {
 	padding: 5px;
 }
 
-aside {
-
-	float: right;
-	position: fixed;
-	margin-left: 60%;
-	top: 17%;
+main {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 3%;
 }
+
+.section1 {
+	width: 60%;
+}
+
+aside {
+	width: 40%;
+}
+
+.section2 {}
+
 
 iframe {
 	height: 220px;
 }
 
-section {
-	float: left;
-	margin-right: 42%
+footer {
+	background-color: rgb(120, 186, 120);
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
-footer {
-	float: left;
-	width: 70%;
+p {
+	color: rgb(113, 28, 28);
+	font-style: italic;
+	font-size: large;
+	background-color: whitesmoke;
+	border: solid 1px black;
 }
 
 footer p {
-	width: 100%;
-	margin-left: 20%;
-	margin-right: 20%;
-	text-align: center;
+	width: 36.4%;
 }
-
-footer a img {
-	width: 50px;
-	height: auto;
-	padding: 25px;
-}
-
-/* #redes{
-float: left;
-width: 70%;
-justify-content: center;
-} */
-
 
 #flotante {
-	float: right;
 	position: fixed;
 	margin-left: 92%;
 	padding: 1%;
 	bottom: 10px;
 }
 
-
-/* ARREGLAR FOOTER Y VER MARGEN TOP EN TITULO */
+#flotante img {
+	width: 70%;
+	height: 70%;
+}
