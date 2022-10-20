@@ -14,8 +14,8 @@ header {
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
-	position: fixed;
-	/* flex-wrap: wrap; */
+	/* position: fixed; */
+	flex-wrap: nowrap;
 	align-items: center;
 	height: 20vh;
 }
@@ -53,7 +53,7 @@ nav {
 
 nav a {
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 1em;
 	color: black;
 }
 
@@ -62,13 +62,13 @@ nav a:hover {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 3vw;
+	font-family: 'Fuzzy Bubbles', cursive;
 	background-color: blanchedalmond;
 }
 
 img {
-	width: 800px;
-	height: 500px;
+	width: 50vw;
 }
 
 .titulos {
@@ -88,7 +88,7 @@ img {
 
 #origen {
 	text-align: justify;
-	padding: 5px;
+	padding: 2%;
 }
 
 main {
@@ -110,7 +110,7 @@ aside {
 
 
 iframe {
-	height: 220px;
+	height: 20%;
 }
 
 footer {
@@ -122,24 +122,33 @@ footer {
 	flex-wrap: wrap;
 }
 
+#flotante {
+	position: fixed;
+	margin-left: 92%;
+	padding: 1%;
+	bottom: 1%;
+}
+
+@font-face {
+	font-family: "Arabella";
+	src: url("../fuentes/Arabella.ttf");
+	format('truetype'); 
+}
+
+
 p {
 	color: rgb(113, 28, 28);
+	font-family: "Arabella";
+	font-size: 1.5em;
 	font-style: italic;
-	font-size: large;
 	background-color: whitesmoke;
-	border: solid 1px black;
+	border: solid 0.1em black;
 }
 
 footer p {
 	width: 36.4%;
 }
 
-#flotante {
-	position: fixed;
-	margin-left: 92%;
-	padding: 1%;
-	bottom: 10px;
-}
 
 #flotante img {
 	width: 70%;
