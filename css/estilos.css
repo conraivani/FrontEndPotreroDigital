@@ -132,7 +132,7 @@ footer {
 @font-face {
 	font-family: "Arabella";
 	src: url("../fuentes/Arabella.ttf");
-	format('truetype'); 
+	format('truetype');
 }
 
 
@@ -153,4 +153,37 @@ footer p {
 #flotante img {
 	width: 70%;
 	height: 70%;
+}
+
+@media (min-width: 700px) {
+	.imagenmobile {
+		display: none;
+	}
+	.h2mobile{display: none;}
+}
+
+@media (max-width: 700px) {
+	.imagenpc {
+		display: none;
+	}
+
+	body {
+		background-color: red;
+		background-image: none;
+	}
+	h1 , h2 , h3 , p {font-size: 0.7em;}
+}
+
+@media (max-width: 575px) {
+	body {
+		background-color: green;
+		background-image: none;
+	}
+	h1 , h2 , h3 , p {font-size: 0.5em;}
+	.imagenmobile {
+		display: none;
+	}
+	.imagenpc {
+		display: none;
+	}
 }
