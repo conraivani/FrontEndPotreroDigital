@@ -122,6 +122,7 @@ footer {
 	flex-wrap: wrap;
 }
 
+
 #flotante {
 	position: fixed;
 	margin-left: 92%;
@@ -187,3 +188,17 @@ footer p {
 		display: none;
 	}
 }
+
+.container {
+padding: 2%;
+}
+.container p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.card{
+	padding: 2%;
+	margin: 2%;
+	min-height: 500px;
+	}
