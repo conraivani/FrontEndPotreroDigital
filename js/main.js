@@ -1,16 +1,22 @@
-// function bienvenida() {alert("Bienvenidos a mi sitio web")}
-
 function modonocturno() {
     document.body.style.backgroundColor= "black";
+    document.getElementById("body").style.backgroundColor = "black";
+    document.getElementById("body").style.backgroundImage = "none";
+    document.getElementById("body").style.color = "white";
     document.getElementById("main").style.backgroundColor = "black";
+    document.getElementById("main").style.color = "white";
     document.getElementById("header").style.backgroundColor = "black";
-    document.getElementById("header").style.color = "#90ffe9";
-    document.getElementById("nav").style.backgroundColor = "whitesmoke";
-    document.getElementById("nav").style.color = "black";
+    document.getElementById("header").style.color = "white";
+    document.getElementById("nav").style.backgroundColor = "black";
+    document.getElementById("nav").style.color = "white";
     document.getElementById("section").style.backgroundColor = "black";
-    document.getElementById("section").style.color = "whitesmoke";
+    document.getElementById("section").style.color = "white";
     document.getElementById("aside").style.backgroundColor = "black";
+    document.getElementById("aside").style.color = "white";
     document.getElementById("footer").style.backgroundColor = "black";
+    document.getElementById("footer").style.color = "white";
+    
+    
 }
 
 function derechos() {

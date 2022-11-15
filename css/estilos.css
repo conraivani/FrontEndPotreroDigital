@@ -10,7 +10,7 @@ body {
 }
 
 header {
-	background-color: blanchedalmond;
+	background-color: rgb(148, 106, 38);
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
@@ -64,7 +64,7 @@ nav a:hover {
 h1 {
 	font-size: 3vw;
 	font-family: 'Fuzzy Bubbles', cursive;
-	background-color: blanchedalmond;
+	background-color: rgb(148, 106, 38);
 }
 
 img {
