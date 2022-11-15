@@ -122,6 +122,11 @@ footer {
 	flex-wrap: wrap;
 }
 
+.oscuro{ 
+    background-color: #1f1f1f; 
+	background-image: none;
+    color: #f1eded; 
+}
 
 #flotante {
 	position: fixed;
